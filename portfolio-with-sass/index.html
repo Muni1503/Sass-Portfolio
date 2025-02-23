@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/css/styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="nav-container" id="header">
+        <nav class="navbar" id="nav">
+            <div class="nav-mobile">
+                <!-- NAVBAR LIST-->
+                <div class="items-container">
+                    <ul>
+                        <li>
+                            <a class="navbar-link" href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a class="navbar-link" href="#projects">Projects</a>
+                        </li>
+                        <li>
+                        <a class="navbar-link" href="#home">Home</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="icon-button-container">
+                    <!-- NAVBAR BUTTON -->
+                    <div class="nav-button-container">
+                        <button>
+                            <a href="#contact">
+                            Contact Me
+                            </a>
+                        </button>
+                    </div>
+                    <!-- ICONS -->
+                    <div class="social-icons">
+                        <a href="#">
+                            <img src="./assets/img/nav-icon1.svg" alt="Linkdin">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/nav-icon2.svg" alt="facebook">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/nav-icon3.svg" alt="instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- LOGO -->
+            <div class="logo-img">
+                <div class="menu-toggle-icon">
+                    <button>
+                        <i class="ri-menu-fill menu" id="menu-toggle-icon"></i>
+                    </button>
+                </div>
+                <a href="./index.html">
+                    <img src="./assets/img/logo.svg" alt="LOGO">
+                </a>
+            </div>
+
+        </nav>
+    </div>
+    
+    <!-- HOME SECTION -->
+    <section class="home" id="home">
+        <div class="home-container"> 
+            <!-- HOME IMAGE -->
+            <div class="home-img" id="home-img-animated">
+                <img id="heroImage" src="./assets/img/header-img.svg" alt="">
+            </div>
+            <!-- HOME CONTENT -->
+            <div class="home-content">
+                <span class="tagline">
+                    Welcome to my portfolio
+                </span>
+                <h1 class="myTypeIt" id="myElement">
+                </h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <div class="home-contact">
+                    <span>Get in touch</span>
+                    <a href="#contact">
+                        <img src="./assets/img/arrow1.svg" alt="">
+                    </a>
+                </div>
+            </div> 
+        </div>
+    </section> 
+
+    <!-- SKILL SECTION -->
+    <section class="skills" id="skills">
+        <div class="skills-box">
+            <h2>
+                Skills
+            </h2>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+            <div class="skills-percent swiper"> 
+                <div class="swiper-wrapper">
+                    <span class="swiper-slide">
+                        <img src="./assets/img/meter1.svg" alt="">
+                        <h5>
+                            HTML
+                        </h5>
+                    </span>
+                    <span class="swiper-slide">
+                        <img src="./assets/img/meter3.svg" alt="">
+                        <h5>
+                            CSS
+                        </h5>
+                    </span>
+                    <span class="swiper-slide">
+                        <img src="./assets/img/meter2.svg" alt="">
+                        <h5>
+                            Sass
+                        </h5>
+                    </span>
+                </div>
+            </div>
+
+            <button class="prev">
+                <svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.2625 13.2375L3.5375 7.5L9.2625 1.7625L7.5 0L0 7.5L7.5 15L9.2625 13.2375Z" fill="#fff" />
+                </svg>
+            </button>
+            <button class="next">
+                <svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.737305 13.2375L6.4623 7.5L0.737305 1.7625L2.4998 0L9.9998 7.5L2.4998 15L0.737305 13.2375Z" fill="#fff" />
+                </svg>
+            </button>
+        </div>
+        <img src="./assets/img/color-sharp.png" class="skills-bg-image" alt="">
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+        <div class="projects-container">
+            <div class="project-content">
+            <h2>
+                Projects
+            </h2>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+            </div>
+        <div class="projects-tabs">
+            <div class="tabs">
+                <div class="tab tab-three">Tab 3</div>
+                <div class="tab tab-two">Tab 2</div>
+                <div class="tab tab-one tab-hover">Tab 1</div>
+            </div>
+        </div>
+        <div class="projects-images">
+        </div>
+        <div class="project-content tab-two-text" id="project-txt-animated">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+        </div>
+        </div>
+    </section>
+    
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <!-- CONTACT FORM -->
+            <div class="contact-form">
+                <div class="contact-form-text">
+                    <h2>
+                        Contact Me
+                    </h2>
+                </div>
+                <form action="POST">
+                    <div class="input-container">
+                        <input class="fields-styles" type="text" placeholder="First Name" required>
+                        <input class="fields-styles" type="text" placeholder="Last Name" required>
+                    </div>
+                    <div class="input-container">
+                        <input class="fields-styles" type="email" placeholder="Email" required>
+                        <input class="fields-styles" type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div>
+                        <textarea class="fields-styles" placeholder="Message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <!-- CONTACT IMAGE -->
+            <div class="contact-img" id="animated-section">
+                <img src="./assets/img/contact-img.svg" alt="">
+            </div>
+        </div> 
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+            <!-- NEWSLETTER SECTION -->
+        <form class="newsletter-section">
+            <div class="newsletter-box">
+                <div class="newsletter-content">
+                    <div class="neswletter-text">
+                        <h3>
+                            Subscribe to our newsletter to never miss an update
+                        </h3>
+                    </div>
+                    <div class="newsletter-input">
+                        <input type="email" placeholder="Email Address">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </form> 
+        <!-- FOOTER -->
+        <div class="footer-container">
+            <div class="footer-items">
+                <div class="social-icons">
+                    <a href="#">
+                        <img src="./assets/img/nav-icon1.svg" alt="Linkdin">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/nav-icon2.svg" alt="facebook">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/nav-icon3.svg" alt="instagram">
+                    </a>
+                </div>
+                <p>
+                    Copyright 2023. All rights reserved.
+                </p>
+            </div>
+            <div class="logo-img">
+                <a href="#">
+                    <img src="./assets/img/logo.svg" alt="LOGO">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- SwiperJs -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- TypeItJs -->
+<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+<script src="./Js/Index.js"></script>
+</html>

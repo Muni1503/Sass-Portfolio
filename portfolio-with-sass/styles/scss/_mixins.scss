@@ -1,0 +1,36 @@
+@mixin overal {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@mixin image {
+    max-width: 100%;
+    height: auto;
+}
+
+@mixin container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+@mixin media($size) {
+    @if ($size == S) {
+        @media (max-width:480px) {
+            @content;
+        }
+    }@if ($size == M) {
+        @media (min-width:480px) and (max-width:768px) {
+            @content;
+        }
+    } @else if ($size == L) {
+        @media (min-width:768px) and (max-width:1024px) {
+            @content;
+        }
+    }
+    @else if ($size == XL) {
+        @media (min-width:1024px) and (max-width:1245px) {
+            @content;
+        }
+    }
+}
